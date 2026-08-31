@@ -1,0 +1,145 @@
+{
+  "name": "Mohammad Qaseem",
+  "title": "Senior Software Engineer",
+  "hero": {
+    "headline": ["Turning", "Complexity", "Into", "Something", "That", "Works"],
+    "accentWord": "Complexity",
+    "bio": "7+ years building scalable backend systems with Node.js, TypeScript, and AWS. I specialise in microservices architecture, event-driven design, and high-concurrency APIs — writing code that holds up under real production load.",
+    "techStack": ["Node.js", "TypeScript", "AWS", "MySQL", "MongoDB"],
+    "terminalCode": "// Initialize engineer profile\n\nconst MohammadQaseem = {\n  role: 'Senior Software Engineer',\n  focus: ['Microservices', 'Event-Driven Arch'],\n  location: 'India',\n  techStack: {\n    languages: ['JavaScript', 'TypeScript'],\n    frameworks: ['Node.js', 'Express.js', 'Fastify', 'NestJS'],\n    databases: ['MySQL', 'MongoDB', 'Redis']\n  },\n  execute: function() {\n    return 'Building reliable products at scale.';\n  }\n};"
+  },
+  "skills": [
+    "TypeScript",
+    "JavaScript (ES6+)",
+    "Node.js",
+    "Express.js",
+    "Fastify",
+    "NestJS",
+    "MySQL",
+    "MongoDB",
+    "PostgreSQL",
+    "Redis",
+    "Elasticsearch",
+    "Apache Kafka",
+    "RabbitMQ",
+    "AWS (EC2, S3, SQS, SNS, SES, RDS, Route53)",
+    "Docker",
+    "REST APIs",
+    "JWT / OAuth2",
+    "Microservices",
+    "CI/CD",
+    "Jest"
+  ],
+  "projects": [
+    {
+      "id": "ourshopee",
+      "title": "OurShopee.com",
+      "description": "High-concurrency e-commerce marketplace for the GCC region. Architected the Order Management System, event-driven async pipelines via AWS SQS and Bull Queue, ZIWO IVR integration, and bidirectional Zoho CRM sync.",
+      "techStack": ["Node.js", "Elasticsearch", "MySQL", "AWS SQS", "Bull Queue", "Docker", "CI/CD"],
+      "liveUrl": "https://ourshopee.com"
+    },
+    {
+      "id": "aurumwisex",
+      "title": "AurumWiseX",
+      "description": "India's first neo-realty investment platform. Built RESTful APIs from inception following SOLID principles, integrated Kafka for event-driven data streaming, and modelled financial data in MongoDB.",
+      "techStack": ["Node.js", "MongoDB", "Apache Kafka", "AWS", "Laravel", "Docker", "Jenkins"],
+      "liveUrl": "https://aurumwisex.com"
+    },
+    {
+      "id": "hamleys",
+      "title": "Hamleys India",
+      "description": "High-traffic retail e-commerce platform. Developed core APIs for web and mobile, containerised environments with Docker, and orchestrated AWS deployments for high availability during peak traffic.",
+      "techStack": ["Node.js", "Laravel", "Vue.js", "Docker", "AWS"],
+      "liveUrl": "https://hamleys.in"
+    },
+    {
+      "id": "tumi",
+      "title": "TUMI India",
+      "description": "Led the transition to a microservices architecture using Node.js and Lumen, optimised relational schemas for high-concurrency checkouts, and configured AWS Route53 for low-latency DNS routing.",
+      "techStack": ["Node.js", "Microservices", "Lumen", "Next.js", "AWS Route53"],
+      "liveUrl": "https://tumi.in"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-ourshopee",
+      "company": "Ourshopee Pvt Ltd",
+      "role": "Software Developer",
+      "startDate": "2025-05",
+      "endDate": "Present",
+      "bullets": [
+        "Architected low-latency web services with Node.js and Fastify, optimising Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic",
+        "Designed event-driven async pipelines using AWS SQS and Bull Queue for high-throughput order processing, cron scheduling, and FIFO message deduplication",
+        "Integrated regional payment gateways (Tamara, Tabby, Apple Pay) with secure, atomic transaction handling and webhook reconciliation",
+        "Refactored legacy codebases applying SOLID principles, improving resource utilisation and database query execution efficiency"
+      ]
+    },
+    {
+      "id": "exp-aurumwisex",
+      "company": "AurumWiseX Pvt Ltd",
+      "role": "Software Developer",
+      "startDate": "2023-08",
+      "endDate": "2024-10",
+      "bullets": [
+        "Designed and deployed scalable microservices using Node.js and Lumen, optimising data handling and resource isolation for high-traffic environments",
+        "Built RESTful APIs from inception following SOLID principles, with strict data validation and global error handling to support the ReactJS frontend",
+        "Integrated Kafka for event-driven data streaming and modelled financial data in MongoDB for flexible, high-performance querying",
+        "Integrated Razorpay Smart Collect APIs for automated payment reconciliation via virtual accounts and UPI workflows"
+      ]
+    },
+    {
+      "id": "exp-greenhonchos",
+      "company": "GreenHonchos Pvt. Ltd.",
+      "role": "Software Developer",
+      "startDate": "2020-12",
+      "endDate": "2023-07",
+      "bullets": [
+        "Led technical requirements gathering and system design for D2C e-commerce platforms including Hamleys, TUMI, Hunkemöller, Manish Malhotra, and Ritu Kumar",
+        "Spearheaded the architecture of scalable RESTful APIs and drove the transition to microservices using Node.js and Lumen for modular scalability",
+        "Implemented JWT/OAuth2 access controls, payload encryption, and secure coding standards across all client projects",
+        "Containerised application environments with Docker and orchestrated AWS deployments for high availability during peak retail traffic"
+      ]
+    },
+    {
+      "id": "exp-psquickit",
+      "company": "PS QuickIT",
+      "role": "Sr. Software Developer",
+      "startDate": "2019-08",
+      "endDate": "2020-12",
+      "bullets": [
+        "Developed and maintained core API endpoints for high-traffic e-commerce platforms, ensuring low latency and high availability",
+        "Optimised application security and runtime performance through collaborative code reviews and system audits",
+        "Designed scalable REST APIs for a Government of India COVID-19 platform that serves users nationwide, with a strong focus on high availability, performance, reliability and fault tolerance.",
+        "Diagnosed and resolved critical production issues across backend services, improving system stability, API reliability, and overall platform performance on national scale."
+      ]
+    },
+    {
+      "id": "exp-lexxdigital",
+      "company": "Lexx Digital",
+      "role": "Software Developer",
+      "startDate": "2018-10",
+      "endDate": "2019-08",
+      "bullets": [
+        "Constructed scalable REST APIs for mobile and web clients, implementing foundational security and data validation layers",
+        "Architected and built the Easy Food platform from scratch, developing scalable backend services and REST APIs for web and mobile applications.",
+        "Designed secure and maintainable application architecture that covers authentication, validation, business logic, and database integration.",
+        "Optimized API performance and database operations to deliver reliable, low-latency services capable of handling production workloads."
+      ]
+    }
+  ],
+  "socialLinks": [
+    { "platform": "GitHub", "url": "https://github.com/shaikhqaseem769" },
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/mohammad-qaseem-8377995607/" }
+  ],
+  "email": "shaikhqaseem769@gmail.com",
+  "cvUrl": "https://github.com/shaikhqaseem769/qaseem-portfolio-website/Resume.pdf",
+  "contact": {
+    "heading": "Let's Work Together"
+  },
+  "seo": {
+    "title": "Mohammad Qaseem — Senior Software Engineer",
+    "description": "Senior Software Engineer with 7+ years building scalable backend systems with Node.js, TypeScript, microservices, and AWS. Open to new opportunities.",
+    "ogImage": "https://qaseem.dev/og-image.jpg",
+    "siteUrl": "https://qaseem.dev"
+  }
+}

@@ -186,7 +186,7 @@ export default function TerminalWidget({ code }: TerminalWidgetProps) {
           fontSize:      '11px',
           letterSpacing: '0.05em',
         }}>
-          sanjay@system: ~
+          Qaseem@system: ~
         </span>
       </div>
 

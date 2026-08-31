@@ -10,7 +10,7 @@ export const size = {
 export const contentType = 'image/png'
 
 export default async function Image() {
-  const title = 'Sanjay Kumar'
+  const title = 'Qaseem Kumar'
   const subtitle = 'Senior Backend Engineer'
 
   return new ImageResponse(
@@ -91,7 +91,7 @@ export default async function Image() {
           </div>
         </div>
         <div style={{ position: 'absolute', bottom: 32, right: 64, opacity: 0.7, fontSize: 18 }}>
-          sanjay-portfolio.com
+          Qaseem-portfolio.com
         </div>
       </div>
     ),

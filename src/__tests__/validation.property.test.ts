@@ -7,7 +7,7 @@ import { PortfolioSchema } from '@/lib/validatePortfolio';
 
 /** A complete valid PortfolioData object that passes PortfolioSchema.safeParse */
 const validPortfolio = {
-  name: 'Sanjay Kumar',
+  name: 'Qaseem Kumar',
   title: 'Senior Software Engineer',
   hero: {
     headline: ['Building', 'Digital', 'Experiences'],
@@ -20,11 +20,11 @@ const validPortfolio = {
   projects: [],
   experience: [],
   socialLinks: [],
-  email: 'hello@sanjay.dev',
+  email: 'hello@Qaseem.dev',
   cvUrl: 'https://example.com/cv.pdf',
   contact: { heading: 'Get In Touch' },
   seo: {
-    title: 'Sanjay Kumar',
+    title: 'Qaseem Kumar',
     description: 'Portfolio site.',
     ogImage: 'https://example.com/og.jpg',
     siteUrl: 'https://example.com',

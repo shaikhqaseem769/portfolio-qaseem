@@ -1,6 +1,6 @@
-# Sanjay Kumar — Portfolio Website
+# Qaseem Kumar — Portfolio Website
 
-Personal portfolio website for Sanjay Kumar, Senior Software Engineer. Built with Next.js and styled with Tailwind CSS.
+Personal portfolio website for Qaseem Kumar, Senior Software Engineer. Built with Next.js and styled with Tailwind CSS.
 
 **Live site:** [portfolio-qaseem.vercel.app](https://portfolio-qaseem.vercel.app/)
 

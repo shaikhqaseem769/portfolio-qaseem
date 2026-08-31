@@ -10,7 +10,7 @@ export const size = {
 export const contentType = 'image/png'
 
 export default async function Image() {
-  const title = 'Qaseem Kumar'
+  const title = 'Mohammad Qaseem'
   const subtitle = 'Senior Backend Engineer'
 
   return new ImageResponse(

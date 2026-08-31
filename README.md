@@ -1,6 +1,6 @@
-# Qaseem Kumar — Portfolio Website
+# Mohammad Qaseem — Portfolio Website
 
-Personal portfolio website for Qaseem Kumar, Senior Software Engineer. Built with Next.js and styled with Tailwind CSS.
+Personal portfolio website for Mohammad Qaseem, Senior Software Engineer. Built with Next.js and styled with Tailwind CSS.
 
 **Live site:** [portfolio-qaseem.vercel.app](https://portfolio-qaseem.vercel.app/)
 

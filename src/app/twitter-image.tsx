@@ -35,7 +35,7 @@ export default async function Image() {
           }}
         />
 
-        <div style={{ fontSize: 52, fontWeight: 800, letterSpacing: -1 }}>Qaseem Kumar</div>
+        <div style={{ fontSize: 52, fontWeight: 800, letterSpacing: -1 }}>Mohammad Qaseem</div>
         <div style={{ height: 12 }} />
         <div style={{ fontSize: 26, opacity: 0.85 }}>Building scalable backends • Node.js • AWS</div>
 

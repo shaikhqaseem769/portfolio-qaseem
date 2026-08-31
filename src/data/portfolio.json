@@ -41,21 +41,21 @@
     {
       "id": "aurumwisex",
       "title": "AurumWiseX",
-      "description": "India's first neo-realty investment platform. Built RESTful APIs from inception following SOLID principles, integrated Kafka for event-driven data streaming, and modelled financial data in MongoDB.",
+      "description": "Neo-realty investment platform. Built RESTful APIs from inception with SOLID principles, Kafka for event-driven streaming, and MongoDB for financial data modelling.",
       "techStack": ["Node.js", "MongoDB", "Apache Kafka", "AWS", "Laravel", "Docker", "Jenkins"],
       "liveUrl": "https://aurumwisex.com"
     },
     {
       "id": "hamleys",
       "title": "Hamleys India",
-      "description": "High-traffic retail e-commerce platform. Developed core APIs for web and mobile, containerised environments with Docker, and orchestrated AWS deployments for high availability during peak traffic.",
+      "description": "High-traffic retail e-commerce platform. Developed core APIs for web and mobile, containerised with Docker, and deployed on AWS for high availability during peak traffic.",
       "techStack": ["Node.js", "Laravel", "Vue.js", "Docker", "AWS"],
       "liveUrl": "https://hamleys.in"
     },
     {
       "id": "tumi",
       "title": "TUMI India",
-      "description": "Led the transition to a microservices architecture using Node.js and Lumen, optimised relational schemas for high-concurrency checkouts, and configured AWS Route53 for low-latency DNS routing.",
+      "description": "Led the transition to microservices with Node.js and Lumen, optimised relational schemas for high-concurrency checkouts, and configured AWS Route53 for low-latency DNS routing.",
       "techStack": ["Node.js", "Microservices", "Lumen", "Next.js", "AWS Route53"],
       "liveUrl": "https://tumi.in"
     }

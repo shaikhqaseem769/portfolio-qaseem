@@ -1,6 +1,6 @@
-// Feature: sanjay-portfolio-website, Property 3: Nav renders exactly one anchor per section
-// Feature: sanjay-portfolio-website, Property 4: Nav Resume button reflects any valid cvUrl
-// Feature: sanjay-portfolio-website, Property 5: Active section drives exactly one active nav link
+// Feature: portfolio-qaseem, Property 3: Nav renders exactly one anchor per section
+// Feature: portfolio-qaseem, Property 4: Nav Resume button reflects any valid cvUrl
+// Feature: portfolio-qaseem, Property 5: Active section drives exactly one active nav link
 
 import { describe, it, expect, vi, beforeAll } from 'vitest';
 import * as fc from 'fast-check';

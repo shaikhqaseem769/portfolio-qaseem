@@ -1,5 +1,5 @@
-// Feature: sanjay-portfolio-website, Property 1: Validation rejects missing required fields
-// Feature: sanjay-portfolio-website, Property 2: Validation accepts only valid cvUrl schemes
+// Feature: portfolio-qaseem, Property 1: Validation rejects missing required fields
+// Feature: portfolio-qaseem, Property 2: Validation accepts only valid cvUrl schemes
 
 import { describe, it, expect } from 'vitest';
 import * as fc from 'fast-check';

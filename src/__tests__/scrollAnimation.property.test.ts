@@ -1,7 +1,7 @@
-// Feature: sanjay-portfolio-website, Property 23: Stagger delay is proportional to item index
-// Feature: sanjay-portfolio-website, Property 24: Scroll animation triggers only once
-// Feature: sanjay-portfolio-website, Property 25: prefers-reduced-motion renders final state immediately
-// Feature: sanjay-portfolio-website, Property 26: Items have opacity:0 and offset transform before intersection
+// Feature: portfolio-qaseem, Property 23: Stagger delay is proportional to item index
+// Feature: portfolio-qaseem, Property 24: Scroll animation triggers only once
+// Feature: portfolio-qaseem, Property 25: prefers-reduced-motion renders final state immediately
+// Feature: portfolio-qaseem, Property 26: Items have opacity:0 and offset transform before intersection
 
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import * as fc from 'fast-check';

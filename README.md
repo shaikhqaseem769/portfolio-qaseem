@@ -2,7 +2,7 @@
 
 Personal portfolio website for Sanjay Kumar, Senior Software Engineer. Built with Next.js and styled with Tailwind CSS.
 
-**Live site:** [sanjay-portfolio-website.vercel.app](https://sanjay-portfolio-website.vercel.app/)
+**Live site:** [portfolio-qaseem.vercel.app](https://portfolio-qaseem.vercel.app/)
 
 ---
 

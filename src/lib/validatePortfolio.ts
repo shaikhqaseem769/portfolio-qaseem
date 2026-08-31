@@ -23,7 +23,7 @@ const SocialLinkSchema = z.object({
 const ProjectSchema = z.object({
   id: z.string().min(1),
   title: z.string().min(1),
-  description: z.string().max(160),
+  description: z.string().max(500),
   techStack: z.array(z.string()),
   thumbnailUrl: z.string().url().optional(),
   demoUrl: z.string().url().optional(),

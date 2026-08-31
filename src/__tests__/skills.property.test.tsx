@@ -1,7 +1,7 @@
-// Feature: sanjay-portfolio-website, Property 11: Skills section renders exactly one chip per skill
-// Feature: sanjay-portfolio-website, Property 12: Every skill chip carries required hover styling classes
+// Feature: portfolio-qaseem, Property 11: Skills section renders exactly one chip per skill
+// Feature: portfolio-qaseem, Property 12: Every skill chip carries required hover styling classes
 
-import { describe, it, expect, beforeAll } from 'vitest';
+import { describe, it, expect, beforeAll, vi } from 'vitest';
 import * as fc from 'fast-check';
 import { render } from '@testing-library/react';
 import SkillsSection from '@/components/Skills/SkillsSection';

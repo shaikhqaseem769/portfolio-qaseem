@@ -1,6 +1,6 @@
-// Feature: sanjay-portfolio-website, Property 6: Accent word receives red styling; all others do not
-// Feature: sanjay-portfolio-website, Property 7: Bio rendering never exceeds 300 characters
-// Feature: sanjay-portfolio-website, Property 8: Download CV link reflects any cvUrl with new-tab target
+// Feature: portfolio-qaseem, Property 6: Accent word receives red styling; all others do not
+// Feature: portfolio-qaseem, Property 7: Bio rendering never exceeds 300 characters
+// Feature: portfolio-qaseem, Property 8: Download CV link reflects any cvUrl with new-tab target
 
 import { describe, it, expect, vi, beforeAll } from 'vitest';
 import { render, screen } from '@testing-library/react';

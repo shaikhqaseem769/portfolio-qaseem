@@ -1,8 +1,8 @@
-# Design Document: Sanjay Portfolio Website
+# Design Document: Qaseem Portfolio Website
 
 ## Overview
 
-The Sanjay Portfolio Website is a statically-generated single-page application (SPA) built with **Next.js 14 (App Router)** and **TypeScript (strict mode)**. It presents a Cyber-Brutalism + Modern Minimalism visual language: pure black background (`#000000`), red (`#FF0000`) primary accent, white/grey text, 0 px border-radius everywhere, and two Google Fonts (Hanken Grotesk + JetBrains Mono).
+The Qaseem Portfolio Website is a statically-generated single-page application (SPA) built with **Next.js 14 (App Router)** and **TypeScript (strict mode)**. It presents a Cyber-Brutalism + Modern Minimalism visual language: pure black background (`#000000`), red (`#FF0000`) primary accent, white/grey text, 0 px border-radius everywhere, and two Google Fonts (Hanken Grotesk + JetBrains Mono).
 
 All personalised content lives in a single source-of-truth file — `src/data/portfolio.json` — so the owner can update the portfolio by editing JSON without touching any component code. TypeScript interfaces exported from `src/types/portfolio.ts` enforce the schema at build time.
 
@@ -83,7 +83,7 @@ app/
 ## Project Structure
 
 ```
-sanjay-portfolio-website/
+portfolio-qaseem/
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx               # Root layout: fonts, metadata, body styles
@@ -385,14 +385,14 @@ export interface PortfolioData {
 
 ```json
 {
-  "name": "Sanjay Kumar",
+  "name": "Mohammad Qaseem",
   "title": "Senior Software Engineer",
   "hero": {
     "headline": ["Building", "Digital", "Experiences", "That", "Matter"],
     "accentWord": "Digital",
     "bio": "Senior Software Engineer specialising in scalable backend systems, cloud infrastructure, and developer tooling. I turn complex problems into clean, maintainable solutions.",
     "techStack": ["TypeScript", "React", "Node.js", "AWS", "Kubernetes"],
-    "terminalCode": "const engineer = {\n  name: 'Sanjay Kumar',\n  role: 'Senior Software Engineer',\n  stack: ['TypeScript', 'React', 'Node.js', 'AWS'],\n  passion: 'Building things that scale'\n};"
+    "terminalCode": "const engineer = {\n  name: 'Mohammad Qaseem',\n  role: 'Senior Software Engineer',\n  stack: ['TypeScript', 'React', 'Node.js', 'AWS'],\n  passion: 'Building things that scale'\n};"
   },
   "skills": ["TypeScript", "JavaScript", "React", "Next.js", "Node.js", "Python", "AWS", "GCP", "Docker", "Kubernetes", "PostgreSQL", "Redis", "GraphQL", "REST APIs", "CI/CD", "Terraform"],
   "projects": [
@@ -402,7 +402,7 @@ export interface PortfolioData {
       "description": "A scalable microservices platform handling 10k+ requests/sec with sub-10ms p99 latency.",
       "techStack": ["Node.js", "Kubernetes", "Kafka", "PostgreSQL"],
       "thumbnailUrl": "/images/project-alpha.jpg",
-      "githubUrl": "https://github.com/sanjay/project-alpha",
+      "githubUrl": "https://github.com/Qaseem/project-alpha",
       "demoUrl": "https://alpha.example.com"
     }
   ],
@@ -420,19 +420,19 @@ export interface PortfolioData {
     }
   ],
   "socialLinks": [
-    { "platform": "GitHub", "url": "https://github.com/sanjay" },
-    { "platform": "LinkedIn", "url": "https://linkedin.com/in/sanjay" }
+    { "platform": "GitHub", "url": "https://github.com/Qaseem" },
+    { "platform": "LinkedIn", "url": "https://linkedin.com/in/Qaseem" }
   ],
-  "email": "hello@sanjay.dev",
+  "email": "hello@Qaseem.dev",
   "cvUrl": "https://drive.google.com/file/d/example/view",
   "contact": {
     "heading": "Get In Touch"
   },
   "seo": {
-    "title": "Sanjay Kumar — Senior Software Engineer",
-    "description": "Portfolio of Sanjay Kumar, a Senior Software Engineer specialising in scalable backend systems and cloud infrastructure.",
-    "ogImage": "https://sanjay.dev/og-image.jpg",
-    "siteUrl": "https://sanjay.dev"
+    "title": "Mohammad Qaseem — Senior Software Engineer",
+    "description": "Portfolio of Mohammad Qaseem, a Senior Software Engineer specialising in scalable backend systems and cloud infrastructure.",
+    "ogImage": "https://Qaseem.dev/og-image.jpg",
+    "siteUrl": "https://Qaseem.dev"
   }
 }
 ```
@@ -1033,7 +1033,7 @@ npm install --save-dev fast-check vitest @testing-library/react @testing-library
 
 **Tag format for each property test:**
 ```typescript
-// Feature: sanjay-portfolio-website, Property {N}: {property text}
+// Feature: portfolio-qaseem, Property {N}: {property text}
 ```
 
 ### Test File Structure
@@ -1063,7 +1063,7 @@ src/
 ### Example Property Test (fast-check)
 
 ```typescript
-// Feature: sanjay-portfolio-website, Property 17: Date formatter produces correct MMM YYYY
+// Feature: portfolio-qaseem, Property 17: Date formatter produces correct MMM YYYY
 import fc from 'fast-check';
 import { formatDate } from '@/lib/formatDate';
 

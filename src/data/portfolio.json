@@ -4,11 +4,14 @@
   "hero": {
     "headline": ["Turning", "Complexity", "Into", "Something", "That", "Works"],
     "accentWord": "Complexity",
-    "bio": "7+ years building scalable backend systems with Node.js, TypeScript, and AWS. I specialise in microservices architecture, event-driven design, and high-concurrency APIs — writing code that holds up under real production load.",
-    "techStack": ["Node.js", "TypeScript", "AWS", "MySQL", "MongoDB"],
-    "terminalCode": "// Initialize engineer profile\n\nconst MohammadQaseem = {\n  role: 'Senior Software Engineer',\n  focus: ['Microservices', 'Event-Driven Arch'],\n  location: 'India',\n  techStack: {\n    languages: ['JavaScript', 'TypeScript'],\n    frameworks: ['Node.js', 'Express.js', 'Fastify', 'NestJS'],\n    databases: ['MySQL', 'MongoDB', 'Redis']\n  },\n  execute: function() {\n    return 'Building reliable products at scale.';\n  }\n};"
+    "bio": "7+ years building scalable backend systems with Python, FastAPI, Flask, Node.js, TypeScript, and AWS. I specialise in microservices architecture, event-driven design, and high-concurrency APIs — writing code that holds up under real production load.",
+    "techStack": ["Python", "FastAPI", "Flask", "Node.js", "TypeScript", "AWS", "MySQL", "MongoDB"],
+    "terminalCode": "// Initialize engineer profile\n\nconst MohammadQaseem = {\n  role: 'Senior Software Engineer',\n  focus: ['Microservices', 'Event-Driven Arch'],\n  location: 'India',\n  techStack: {\n    languages: ['JavaScript', 'TypeScript'],\n    frameworks: ['Python', 'FastAPI','Flask', 'Node.js', 'Express.js', 'Fastify', 'NestJS'],\n    databases: ['MySQL', 'MongoDB', 'Redis']\n  },\n  execute: function() {\n    return 'Building reliable products at scale.';\n  }\n};"
   },
   "skills": [
+    "Python",
+    "FastAPI",
+    "Flask",
     "TypeScript",
     "JavaScript (ES6+)",
     "Node.js",
@@ -35,28 +38,28 @@
       "id": "ourshopee",
       "title": "OurShopee.com",
       "description": "High-concurrency e-commerce marketplace for the GCC region. Architected the Order Management System, event-driven async pipelines via AWS SQS and Bull Queue, ZIWO IVR integration, and bidirectional Zoho CRM sync.",
-      "techStack": ["Node.js", "Elasticsearch", "MySQL", "AWS SQS", "Bull Queue", "Docker", "CI/CD"],
+      "techStack": ["Python", "FastAPI", "Elasticsearch", "MySQL", "AWS SQS", "Bull Queue", "Docker", "CI/CD"],
       "liveUrl": "https://ourshopee.com"
     },
     {
       "id": "aurumwisex",
       "title": "AurumWiseX",
       "description": "Neo-realty investment platform. Built RESTful APIs from inception with SOLID principles, Kafka for event-driven streaming, and MongoDB for financial data modelling.",
-      "techStack": ["Node.js", "MongoDB", "Apache Kafka", "AWS", "Laravel", "Docker", "Jenkins"],
+      "techStack": ["Python", "FastAPI", "MongoDB", "Apache Kafka", "AWS", "Laravel", "Docker", "Jenkins"],
       "liveUrl": "https://aurumwisex.com"
     },
     {
       "id": "hamleys",
       "title": "Hamleys India",
       "description": "High-traffic retail e-commerce platform. Developed core APIs for web and mobile, containerised with Docker, and deployed on AWS for high availability during peak traffic.",
-      "techStack": ["Node.js", "Laravel", "Vue.js", "Docker", "AWS"],
+      "techStack": ["Python", "FastAPI", "Laravel", "Vue.js", "Docker", "AWS"],
       "liveUrl": "https://hamleys.in"
     },
     {
       "id": "tumi",
       "title": "TUMI India",
-      "description": "Led the transition to microservices with Node.js and Lumen, optimised relational schemas for high-concurrency checkouts, and configured AWS Route53 for low-latency DNS routing.",
-      "techStack": ["Node.js", "Microservices", "Lumen", "Next.js", "AWS Route53"],
+      "description": "Led the transition to microservices with Python, FastAPI & Node.js, optimised relational schemas for high-concurrency checkouts, and configured AWS Route53 for low-latency DNS routing.",
+      "techStack": ["Python", "FastAPI", "Microservices", "Lumen", "Next.js", "AWS Route53"],
       "liveUrl": "https://tumi.in"
     }
   ],
@@ -68,7 +71,7 @@
       "startDate": "2025-05",
       "endDate": "Present",
       "bullets": [
-        "Architected low-latency web services with Node.js and Fastify, optimising Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic",
+        "Architected low-latency web services with Python and FastAPI, optimising Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic",
         "Designed event-driven async pipelines using AWS SQS and Bull Queue for high-throughput order processing, cron scheduling, and FIFO message deduplication",
         "Integrated regional payment gateways (Tamara, Tabby, Apple Pay) with secure, atomic transaction handling and webhook reconciliation",
         "Refactored legacy codebases applying SOLID principles, improving resource utilisation and database query execution efficiency"
@@ -81,7 +84,7 @@
       "startDate": "2023-08",
       "endDate": "2024-10",
       "bullets": [
-        "Designed and deployed scalable microservices using Node.js and Lumen, optimising data handling and resource isolation for high-traffic environments",
+        "Designed and deployed scalable microservices using Python and FastAPI, optimising data handling and resource isolation for high-traffic environments",
         "Built RESTful APIs from inception following SOLID principles, with strict data validation and global error handling to support the ReactJS frontend",
         "Integrated Kafka for event-driven data streaming and modelled financial data in MongoDB for flexible, high-performance querying",
         "Integrated Razorpay Smart Collect APIs for automated payment reconciliation via virtual accounts and UPI workflows"
@@ -95,7 +98,7 @@
       "endDate": "2023-07",
       "bullets": [
         "Led technical requirements gathering and system design for D2C e-commerce platforms including Hamleys, TUMI, Hunkemöller, Manish Malhotra, and Ritu Kumar",
-        "Spearheaded the architecture of scalable RESTful APIs and drove the transition to microservices using Node.js and Lumen for modular scalability",
+        "Spearheaded the architecture of scalable RESTful APIs and drove the transition to microservices using Python, FastAPI, Node.js and Lumen for modular scalability",
         "Implemented JWT/OAuth2 access controls, payload encryption, and secure coding standards across all client projects",
         "Containerised application environments with Docker and orchestrated AWS deployments for high availability during peak retail traffic"
       ]
